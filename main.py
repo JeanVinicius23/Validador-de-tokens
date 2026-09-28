@@ -13,7 +13,7 @@ if not ia_escolhida.strip():
 
 limite_da_ia = 20 # Mantemos um limite baixo para só pra testar
 
-# 3. Executa a validação com os dados que o usuário digitou
+#Executa a validação com os dados que o usuário digitou
 status, mensagem = validar_janela_contexto(
     texto=meu_prompt, 
     limite_tokens=limite_da_ia, 
