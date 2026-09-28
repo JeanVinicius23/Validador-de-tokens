@@ -39,8 +39,28 @@ Certifique-se de ter o **Python** instalado no seu computador. Em seguida, siga 
    ```bash
    pip install tiktoken pytest
 
+## 🕹️ Como Executar
 
+1. Executar a Interface Interativa (main.py):
+   Para testar prompts personalizados em tempo real e escolher diferentes modelos de IA (como gpt-3.5-turbo, gpt-4, gpt-4o):
+   python main.py
 
+2. Executar os Testes Automatizados (pytest):
+   Para validar se a lógica do código está a funcionar perfeitamente sem erros:
+   pytest -v
 
+---
 
-   
+## 🛠️ Tecnologias Utilizadas
+* Python (Linguagem principal)
+* Tiktoken (Biblioteca de tokenização oficial da OpenAI baseada em BPE)
+* Pytest (Framework de testes unitários e automação de QA)
+
+---
+
+## 👨‍💻 Autor
+
+**Jean Vinicius Silva da Silva**
+- GitHub:(https://github.com/JeanVinicius23)
+  
+Desenvolvido com foco em boas práticas de engenharia de software, automação de testes e integração com Inteligência Artificial.
